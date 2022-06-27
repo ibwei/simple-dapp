@@ -51,10 +51,6 @@ const HomePage: React.FunctionComponent = () => {
           address: getMjtAddress(),
           name: 'symbol',
         },
-        {
-          address: getMjtAddress(),
-          name: 'symbol',
-        },
       ]
 
       const multiRespond = await multicall(MJT_ABI, multiParams)
